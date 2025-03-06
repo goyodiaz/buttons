@@ -1,3 +1,5 @@
+import streamlit as st
+
 checkout_url = "http://google.com"
 st.link_button(
     label=":black[Click to Checkout]",
