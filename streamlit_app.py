@@ -15,3 +15,10 @@ st.link_button(
     type="secondary",
     use_container_width=False
 )
+st.link_button(
+    label="**Click to Checkout**",
+    url=checkout_url,
+    help="Click to visit check-out page to complete payment. Checkout will expire in 3 minutes.",
+    type="secondary",
+    use_container_width=False
+)
